@@ -1,0 +1,15 @@
+#include<cstdio>
+
+int main()
+{
+	double money=0,n = 0.8,average;
+	int cout=0,sum=0;
+	for (int i = 2; sum <= 100; i *= 2) {
+		money = n * i + money;
+		sum = sum + i;
+		cout++;
+	}
+	average = money /(double)cout;
+	printf("%lf",average);
+	return 0;
+}
