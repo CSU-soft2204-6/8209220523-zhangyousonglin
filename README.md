@@ -19,6 +19,8 @@ Java实践介绍
 14.	零钱通项目分为面向过程与面向对象这是程序化思维要分析所需的变量，其中采用switch以前我不屑一顾的循环以及demo3的循环与用户的交互真的很重要，此外还联系到时间的打印，面向对象思想真的重要
 15.	房屋出租系统是目前最麻烦的，它把除继承与多态以外的都考虑了主要是其分层模式要掌握具体过程看下一个文档
 16.	Static_是比较麻烦的在于区分静态代码块和普通代码块，记忆普通代码块是随着对象的产生而被调用，而静态代码块是类被加载就有且只执行一次且有继承，顺序静态代码块大于普通代码块大于构造器
-
-17.新增的是hashset源码分析耗时极长里面有详细注解
-18.补充的chapter14文件夹是collection专题首先分为单列与双列根据collection与map分通过list vector arraylist 到set linkedset hashset 后是map treeset hashmap hashtable 通过debug追源码了解数组+链表+红黑树 （红黑树可以通过算法4的视频）在17中已经写了大概麻烦在于遍历entryset真的向下转型麻烦死了老是Exception in thread "main" java.util.ConcurrentModificationException 和castExcption 报错后面泛型就可以优化了
+17.异常处理略
+18.新增的是hashset源码分析耗时极长里面有详细注解
+19.补充的chapter14文件夹是collection专题首先分为单列与双列根据collection与map分通过list vector arraylist 到set linkedset hashset 后是map treeset hashmap
+hashtable 通过debug追源码了解数组+链表+红黑树 （红黑树可以通过算法4的视频）在17中已经写了大概麻烦在于遍历entryset真的向下转型麻烦死了老是Exception in thread "main" 
+java.util.ConcurrentModificationException 和castExcption 报错后面泛型就可以优化了
