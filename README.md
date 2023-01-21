@@ -24,3 +24,8 @@ Java实践介绍
 19.补充的chapter14文件夹是collection专题首先分为单列与双列根据collection与map分通过list vector arraylist 到set linkedset hashset 后是map treeset hashmap
 hashtable 通过debug追源码了解数组+链表+红黑树 （红黑树可以通过算法4的视频）在17中已经写了大概麻烦在于遍历entryset真的向下转型麻烦死了老是Exception in thread "main" 
 java.util.ConcurrentModificationException 和castExcption 报错后面泛型就可以优化了
+18.	内部类其中最重要的是匿名内部类记住匿名内部类可以当对象且要时常复习
+19.	异常处理略
+20.	新增的是hashset源码分析耗时极长里面有详细注解
+21.	补充的chapter14文件夹是collection专题首先分为单列与双列根据collection与map分通过list vector arraylist 到set linkedset hashset 后是map treeset hashmaphashtable 通过debug追源码了解数组+链表+红黑树 （红黑树可以通过算法4的视频）在17中已经写了大概麻烦在于遍历entryset真的向下转型麻烦死了老是Exception in thread "main" java.util.ConcurrentModificationException 和castExcption 报错后面泛型就可以优化了
+22.	Chapter15是泛型这考察细节像重写接口，类，方法自不必多说重要是结合上面集合的知识灵活运用，这可以从源码中学习
